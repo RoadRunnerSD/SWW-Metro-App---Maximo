@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEAEA"
+    android:backgroundTint="#F3F0F0"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/threeLines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EC0E0E"
+        android:tint="#101010"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/mainmenu"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="251dp"
+        android:layout_height="55dp"
+        android:background="#F60B0B"
+        android:backgroundTint="#F61010"
+        android:text="Return to Main Menu"
+        app:cornerRadius="4"
+        app:iconTint="#ED0606"
+        app:rippleColor="#ED0909"
+        app:strokeColor="#EA0404"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="700dp" />
+
+    <EditText
+        android:id="@+id/line"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="[insert line name]"
+        android:textColor="#070707"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="61dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#939090"
+        app:srcCompat="@android:drawable/btn_radio"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="297dp"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Thank you for your feedback!"
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="590dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="61dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#939090"
+        app:srcCompat="@android:drawable/btn_radio"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="211dp"
+        android:layout_height="41dp"
+        android:button="@android:drawable/radiobutton_off_background"
+        android:buttonTint="#FF5722"
+        android:fontFamily="@font/caladea"
+        android:text="Not Accurate"
+        android:textColor="#FF5722"
+        android:textSize="20"
+        android:textStyle="italic"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="549dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="45dp"
+        android:layout_height="39dp"
+        android:button="@android:drawable/radiobutton_off_background"
+        android:buttonTint="#FF9800"
+        android:fontFamily="@font/caladea"
+        android:text="Ok"
+        android:textColor="#FF9800"
+        android:textSize="20"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <EditText
+        android:id="@+id/line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="[insert line name]"
+        android:textColor="#090909"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <EditText
+        android:id="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="[insert line name]"
+        android:textColor="#0C0C0C"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="61dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#939090"
+        app:srcCompat="@android:drawable/btn_radio"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <TextView
+        android:id="@+id/lineReview"
+        android:layout_width="303dp"
+        android:layout_height="38dp"
+        android:text="Were the lines on time today?"
+        android:textAlignment="center"
+        android:textColor="#101010"
+        android:textSize="20"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <EditText
+        android:id="@+id/EstimateReview"
+        android:layout_width="302dp"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="textPersonName"
+        android:text="How were our estimates?"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#040303"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/LOGO"
+        android:layout_width="294dp"
+        android:layout_height="68dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="TripTap"
+        android:textAlignment="center"
+        android:textColor="#CD1111"
+        android:textSize="40"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/lineReview"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.275"
+        tools:layout_editor_absoluteX="102dp" />
+
+    <androidx.constraintlayout.helper.widget.Layer
+        android:id="@+id/layer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F3F0F0"
+        android:backgroundTint="#FDFCFC" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        android:layout_width="65dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#8BC34A"
+        android:text="uyty"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
